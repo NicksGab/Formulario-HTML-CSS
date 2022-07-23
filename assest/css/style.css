@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background: rgb(242, 242, 242);
+}
+
+#corpo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#PE {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding-left: 80px;
+  transform: translateY(-110px);
+}
+
+#PD {
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  align-items: center;
+}
+
+
+.form {
+  display: flex;
+  border: 2px solid #151515;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px black;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(242, 242, 242);
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.text {
+  padding: 10px 80px 30px 20px;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+}
+
+.login123 {
+  margin-left: 10px;
+}
+
+.senha123 {
+  margin-left: 5px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 15px 0; 
+}
+
+#cadastrar {
+  width: 200px;
+  height: 30px;
+  background: rgb(9, 201, 226);
+  border: 2px solid rgb(2, 107, 121);
+}
+
+#botaocadastro {
+  list-style: none;
+}
+
+#botaocadastro a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  width: 200px;
+  height: 30px;
+  background: rgb(128, 230, 243);
+  border: 2px solid rgb(2, 107, 121);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+#botaocadastro a:hover {
+  background: cyan;
+  box-shadow: 0px 0px 10px cyan;
+  transition: 0.3s;
+}
